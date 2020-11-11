@@ -12,7 +12,7 @@ const Greeting = ({ currentUser, logout }) => {
 
   const personalGreeting = () => (
     <div className='header-group'>
-      <h2 className="header-name">Welcome, {currentUser.user.first_name}</h2>
+      <h2 className="header-name">Welcome, {currentUser.first_name}</h2>
       <button className="header-button" onClick={logout}>Log Out</button>
     </div>
   );
