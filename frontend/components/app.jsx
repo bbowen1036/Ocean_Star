@@ -9,7 +9,8 @@ import {
 
 import GreetingContainer from './greeting/greeting_container';
 import LoginFormContainer from './session_form/login_form_container';
-import SessionFormContainer from './session_form/signup_form_container'
+import SessionFormContainer from './session_form/signup_form_container';
+import { AuthRoute, ProtectedRoute } from '../util/route_util'
 
 const App = () => {
   return (
@@ -18,10 +19,10 @@ const App = () => {
         <h1>OCEANSTAR</h1>
         <GreetingContainer />
       </header>
-
-      <Route path="/login" component={LoginFormContainer} />
-      <Route path="/signup" component={SessionFormContainer} />
-
+      <Switch>
+        <AuthRoute exact path="/login" component={LoginFormContainer} />
+        <AuthRoute exact path="/signup" component={SessionFormContainer} />
+      </Switch>
     </div>
   )
 };
