@@ -19,6 +19,7 @@ u2 = User.create!( first_name: "John", last_name: "Smith", password: "password",
 u3 = User.create!( first_name: "Jill", last_name: "Smith", password: "password", email: "user3@aa.io")
 u4 = User.create!( first_name: "Jennifer", last_name: "Smith", password: "password", email: "user4@aa.io")
 u5 = User.create!( first_name: "Jack", last_name: "Smith", password: "password", email: "user5@aa.io")
+demo = User.create!( first_name: "Guest", last_name: "Demo", password: "password", email: "Hello@OceanStar.com")
 
 # Categories
 c1 = Category.create!( name: "Seafood")
@@ -53,8 +54,8 @@ product20 = Product.create!( name: "Crab, Cocktail Claws (Jonah) - 2 lb bag", pr
 
 # Products - Meat
 
-product21 = Product.create!( name: "Eggs (Rolling Oaks Ranch) - Dozen", price: 12.50, description: , category_id: "2")
-product22 = Product.create!( name: "Biagio Whole Chicken - ~3.25lbs", price: 14.95, description: , category_id: "2")
+product21 = Product.create!( name: "Eggs (Rolling Oaks Ranch) - Dozen", price: 12.50, description: "Corn-Fed, Locally-Raised, Humanely-Treated", category_id: "2")
+product22 = Product.create!( name: "Biagio Whole Chicken - ~3.25lbs", price: 14.95, description: "Corn-Fed, Locally-Raised, Humanely-Treated", category_id: "2")
 product23 = Product.create!( name: "Biagio Cornish Hen", price: 12.50, description: "Corn-Fed, Locally-Raised, Humanely-Treated", category_id: "2")
 product24 = Product.create!( name: "Biagio Cornish Hen", price: 12.50, description: 'Corn-Fed, Locally-Raised, Humanely-Treated' , category_id: "2")
 product25 = Product.create!( name: "BBQ Chicken Breast (Cochon Volant) - LB", price: 19, description: "This comes in a sealed vacuum bag.  To serve, only simmer whole bag in water for 15 minutes, then cut open and it's ready to eat.  Dress with your Cochon BBQ sauce or eat on it own." , category_id: "2")

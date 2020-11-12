@@ -10,6 +10,7 @@ class SessionForm extends React.Component {
       password: ''
     };
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleDemo = this.handleDemo.bind(this);
   }
 
   componentDidMount() {
@@ -41,6 +42,54 @@ class SessionForm extends React.Component {
     );
   }
 
+
+  handleDemo(e) {
+    e.preventDefault();
+
+    let i = 0;
+    let j = 0;
+    let demoEmail = "Hello@OceanStar.com";
+    let demoPassword = "password";
+
+    const typeUser = () => {
+      let timeout;
+      if (i < demoEmail.length) {
+        document.getElementById("email").value += demoEmail.charAt(i);
+        i++;
+        timeout = setTimeout(typeUser, 100);
+      } else {
+        clearTimeout(timeout)
+      }
+    }
+
+    const typePw = () => {
+      let timeout;
+      if (j < demoPassword.length) {
+        document.getElementById("password").value += demoPassword.charAt(j);
+        j++;
+        timeout = setTimeout(typePw, 100);
+      } else {
+        clearTimeout(timeout)
+      }
+    }
+
+    if (this.props.formType === 'login') {
+      typeUser();
+
+      window.setTimeout(() => {
+        typePw();
+      }, 1500)
+
+      window.setTimeout(() => {
+        this.setState({ email: "Hello@OceanStar.com", password: "password"}, () => {
+          const user = Object.assign({}, this.state);
+          this.props.processForm(user)
+            // .then(() => this.props.history.push("/main"));
+        });
+      }, 3000)
+    }
+  }
+
   loginForm() {
     return (
       <div className="login-page-container">
@@ -55,6 +104,7 @@ class SessionForm extends React.Component {
             {this.renderErrors()}
             <div className="login-form-item">
               <input 
+                id="email"
                 className="login-form-input"
                 type="email" 
                 placeholder="Email" 
@@ -64,6 +114,7 @@ class SessionForm extends React.Component {
 
             <div className="login-form-item">
               <input 
+                id="password"
                 className="login-form-input"
                 type="password" 
                 placeholder="Password" 
@@ -72,6 +123,8 @@ class SessionForm extends React.Component {
             </div>
 
             <button className="login-button">Login</button>
+            <button className="login-button" onClick={this.handleDemo} >Demo</button>
+
             <div className="form-hint">
               {this.props.navLink}
             </div>
