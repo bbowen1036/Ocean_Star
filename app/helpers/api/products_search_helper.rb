@@ -1,0 +1,2 @@
+module Api::ProductsSearchHelper
+end
