@@ -22,6 +22,9 @@ time, mark, audio, video {
 
 body {
     line-height:1;
+    min-height: 1000px;
+    position: relative;
+    /* min-height: 100vh; */
 }
 
 article,aside,details,figcaption,figure,
