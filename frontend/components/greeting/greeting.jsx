@@ -1,12 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { faUser } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 const Greeting = ({ currentUser, logout }) => {
   const sessionLinks = () => (
     <nav className="login-signup">
-      <Link to="/login">Login</Link>
-      &nbsp;or&nbsp;
-      <Link to="/signup">Register</Link>
+      <Link to="/login">
+        <FontAwesomeIcon icon={faUser} size='2x' className="nav-icon user-icon"/>
+      </Link> 
+      <Link to="/login" className="login-link">Log In</Link>
     </nav>
   );
 

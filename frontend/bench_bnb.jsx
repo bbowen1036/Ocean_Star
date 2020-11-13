@@ -7,7 +7,7 @@ import Root from './components/root';
 //test START//
 import {login, logout, signup} from './actions/session_actions'
 import {fetchAllProducts, fetchProduct, findProduct} from './actions/product_actions';
-import { getCategory } from './actions/categories_actions'
+import { getCategory, getAllCategories } from './actions/categories_actions'
 //test END//
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
   window.fetchProduct = fetchProduct;
   window.findProduct = findProduct;
   window.getCategory = getCategory
+  window.getAllCategories = getAllCategories
   window.getState = store.getState;
   window.dispatch = store.dispatch;
   //test END//
