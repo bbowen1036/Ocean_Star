@@ -1,5 +1,6 @@
 import { connect } from 'react-redux';
 import { getAllCategories } from '../../actions/categories_actions';
+import { fetchAllProducts } from '../../actions/product_actions'
 import Home from './home'
 
 const mSTP = (state) => ({
@@ -8,7 +9,9 @@ const mSTP = (state) => ({
 });
 
 const mDTP = dispatch => ({
-  getAllCategories: () => dispatch(getAllCategories())
+  getAllCategories: () => dispatch(getAllCategories()),
+  fetchAllProducts: () => dispatch(fetchAllProducts())
+
 });
 
 export default connect(mSTP,mDTP)(Home)

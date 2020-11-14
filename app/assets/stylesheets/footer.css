@@ -1,6 +1,7 @@
 .footer {
   width: 100%;
-  position: absolute;
+  position: relative;
+  top: 40px;
   bottom: 0;
   height: auto;
   display: flex;
