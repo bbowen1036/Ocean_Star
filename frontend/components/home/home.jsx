@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import CategoryDisplay from '../categories/category_display'
+import CategoryDisplay from '../categories/category_display';
+import StaticHeader from './static_section';
 
 class Home extends React.Component {
   constructor(props){
@@ -37,6 +38,7 @@ class Home extends React.Component {
             <h4>and flat-rate shipping nationally.</h4>
           </footer>
         </section>
+        <StaticHeader />
 
         <ul className="all-categories">
         {Object.values(categories).map((category) => propProds(category))}

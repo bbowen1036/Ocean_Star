@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import GreetingContainer from '../greeting/greeting_container';
 import { faShoppingCart, faSearch, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -11,8 +12,6 @@ class Navbar extends React.Component  {
       query: ""
     }
   }
-
-
 
 
   currUser(){
@@ -41,7 +40,11 @@ class Navbar extends React.Component  {
 
         <div className="nav-group">
           <ul className="nav-categories">
-            <li className="left">icon</li>
+            <Link to="/">  
+              <li className="left">
+                <img className="nav-logo" src="https://oceanstar-seed.s3-us-west-1.amazonaws.com/logo.jpeg" alt=""/>
+              </li>
+            </Link>
             <li className="left">Seafood</li>
             <li className="left">Meat</li>
             <li className="left">Produce</li>

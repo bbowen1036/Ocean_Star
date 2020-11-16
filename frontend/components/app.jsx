@@ -12,7 +12,8 @@ import SessionFormContainer from './session_form/signup_form_container';
 import HomeContainer from './home/home_container';
 import NavbarContainer from './navbar/navbar_container';
 import Error from './error/error';
-import Footer from './footer/footer'
+import Footer from './footer/footer';
+import ProductShow from './products/product_show';
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
         <AuthRoute exact path="/login" component={LoginFormContainer} />
         <AuthRoute exact path="/signup" component={SessionFormContainer} />
 
+        <Route exact path='/fish' component={ProductShow} />
         <Redirect to="/error" />
       </Switch>
       <footer>
