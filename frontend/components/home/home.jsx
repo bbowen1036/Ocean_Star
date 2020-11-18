@@ -17,8 +17,7 @@ class Home extends React.Component {
     const { categories, products } = this.props;
 
     function propProds(category) {
-      // debugger
-      return <CategoryDisplay key={category.id} category={category} productIds={category.productId} products={products}/>
+      return <CategoryDisplay  key={category.id} category={category} productIds={category.productId} products={products}/>
     }
     return (
       <div>
