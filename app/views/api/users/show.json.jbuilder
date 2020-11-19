@@ -1,3 +1,4 @@
 json.user do
-  json.partial! "api/users/user", user: @user
+  @cart = @user.cart
+  json.partial! "api/users/user", user: @user, cart: @cart
 end

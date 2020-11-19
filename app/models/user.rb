@@ -21,6 +21,14 @@ class User < ApplicationRecord
   validates :email, uniqueness: true
   validates :password, length: { minimum: 6 }, allow_nil: true
 
+  has_one :cart,   
+    class_name: :Cart
+  
+  has_many :cart_items,
+    through: :cart, 
+    source: :cart_items
+
+
   ## S P I R E ##
   after_initialize :ensure_session_token
   attr_reader :password

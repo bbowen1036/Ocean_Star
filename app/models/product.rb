@@ -21,5 +21,7 @@ class Product < ApplicationRecord
     foreign_key: :category_id,
     class_name: :Category
 
+  
+
   has_one_attached :photo
 end
