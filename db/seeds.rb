@@ -9,6 +9,8 @@
 
 User.delete_all
 Product.delete_all
+Category.delete_all
+Cart.delete_all
 
 ActiveRecord::Base.connection.tables.each do |t|
   ActiveRecord::Base.connection.reset_pk_sequence!(t)
@@ -20,6 +22,13 @@ u3 = User.create!( first_name: "Jill", last_name: "Smith", password: "password",
 u4 = User.create!( first_name: "Jennifer", last_name: "Smith", password: "password", email: "user4@aa.io")
 u5 = User.create!( first_name: "Jack", last_name: "Smith", password: "password", email: "user5@aa.io")
 demo = User.create!( first_name: "Guest", last_name: "Demo", password: "password", email: "Hello@OceanStar.com")
+
+cart1 = Cart.create!( user_id: 1)
+cart2 = Cart.create!( user_id: 2)
+cart3 = Cart.create!( user_id: 3)
+cart4 = Cart.create!( user_id: 4)
+cart5 = Cart.create!( user_id: 5)
+cart6 = Cart.create!( user_id: 6)
 
 # Categories
 c1 = Category.create!( name: "Seafood")

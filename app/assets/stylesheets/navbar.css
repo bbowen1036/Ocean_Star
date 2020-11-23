@@ -10,12 +10,14 @@
   position:sticky;
   top:0px;
   z-index:5;
-  background-color: rgba(255, 255, 255, 0.787);
-  opacity: 85%;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
   font-family: Net-Lulo-Clean-W01-One-Bold;
   font-size:10px;
   border-bottom: solid 1px rgb(184, 181, 181);
 }
+
+
 
 .nav-categories {
   display: flex;

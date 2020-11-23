@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import GreetingContainer from '../greeting/greeting_container';
 import { faShoppingCart, faSearch, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import CartContainer from '../cart/cart_container';
 // import {HashLink} from 'react-router-hash-link'
 import { Redirect } from 'react-router-dom'
 
@@ -72,17 +73,19 @@ class Navbar extends React.Component  {
             </Link>
             
       
-
-            <li className="left">Seafood</li>         
-            <li className="left">Meat</li>
-            <li className="left">Produce</li>
-            <li className="left">Meal Kit</li>
-            <li className="left">Bakery</li>
-            <li className="left">Pantry</li>
+            <Link to='/seafood'>
+              <li className="left">Seafood</li>         
+            </Link>
+            <Link to='/meat'><li className="left">Meat</li></Link>
+            <Link to='/produce'><li className="left">Produce</li></Link>
+            <Link to='/mealKit'><li className="left">Meal Kit</li></Link>  
+            <Link to='/bakery'><li className="left">Bakery</li></Link>       
+            <Link to='/pantry'><li className="left">Pantry</li></Link>   
           </ul>
         </div>
         <div className="nav-bttn">
-          <FontAwesomeIcon icon={faShoppingCart} size='2x' className="nav-icon cart-icon"/>
+          <CartContainer/>
+          {/* <FontAwesomeIcon icon={faShoppingCart} size='2x' className="nav-icon cart-icon"/> */}
           < GreetingContainer className="nav-icon"/>  
         </div>
          

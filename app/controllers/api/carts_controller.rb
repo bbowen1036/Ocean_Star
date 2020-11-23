@@ -22,7 +22,7 @@ class Api::CartsController < ApplicationController
     if @cart
       id = @cart.user_id
       @cart.destroy
-      Cart.create({ user_id: id })
+      Cart.create!({ user_id: id })
       render json: {}
     else
       render json: ['No Cart Found'], status: 404

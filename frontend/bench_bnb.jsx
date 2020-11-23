@@ -8,6 +8,7 @@ import Root from './components/root';
 import {login, logout, signup} from './actions/session_actions'
 import {fetchAllProducts, fetchProduct, findProduct} from './actions/product_actions';
 import { getCategory, getAllCategories } from './actions/categories_actions'
+import { addCartItem, deleteCartItem, fetchCart } from './actions/cart_actions';
 //test END//
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -38,6 +39,9 @@ document.addEventListener("DOMContentLoaded", () => {
   window.getAllCategories = getAllCategories
   window.getState = store.getState;
   window.dispatch = store.dispatch;
+  window.addCartItem = addCartItem;
+  window.deleteCartItem = deleteCartItem;
+  window.fetchCart = fetchCart;
   //test END//
   
   

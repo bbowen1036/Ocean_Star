@@ -3,7 +3,7 @@ class Api::UsersController < ApplicationController
     @user = User.new(user_params)
     if @user.save
       id = @user.id
-      Cart.create({ user_id: id })
+      Cart.create!({ user_id: id })
 
       render :show
     else
@@ -12,7 +12,7 @@ class Api::UsersController < ApplicationController
   end
 
   def show
-    @user = User.first
+    @user = User.last
     if @user
       render :show
     else

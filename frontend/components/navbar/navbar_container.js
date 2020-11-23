@@ -9,7 +9,7 @@ const mSTP = (state) => ({
 
 const mDTP = dispatch => ({
   logout: () => dispatch(logout()),
-  findProduct: (query) => dispatch(findProduct(query))
+  findProduct: (query) => dispatch(findProduct(query)),
 });
 
 export default connect(mSTP, mDTP)(Navbar)

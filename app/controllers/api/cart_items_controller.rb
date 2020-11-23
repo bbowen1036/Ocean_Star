@@ -1,5 +1,6 @@
 class Api::CartItemsController < ApplicationController
   def create
+    
     @cart_item = CartItem.new(cart_item_params)
     if @cart_item.save
       id = @cart_item.cart.id

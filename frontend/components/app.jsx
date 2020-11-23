@@ -17,6 +17,12 @@ import ProductShow from './products/product_show';
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
 import CartContainer from './cart/cart_container';
 import SearchContainer from './search/search_container';
+import SeafoodContainer from './category_show/seafood_container';
+import MeatContainer from './category_show/meat';
+import ProduceContainer from './category_show/produce';
+import MealKitContainer from './category_show/meal_kit';
+import BakeryContainer from './category_show/bakery';
+import PantryContainer from './category_show/pantry';
 
 const App = () => {
   return (
@@ -31,6 +37,12 @@ const App = () => {
         <AuthRoute exact path="/signup" component={SessionFormContainer} />
         <Route exact path='/search' component={SearchContainer}/>
         <Route exact path='/cart' component={CartContainer} />
+        <Route exact path='/seafood' component={SeafoodContainer} />
+        <Route exact path='/meat' component={MeatContainer} />
+        <Route exact path='/produce' component={ProduceContainer} />
+        <Route exact path='/mealKit' component={MealKitContainer} />
+        <Route exact path='/bakery' component={BakeryContainer} />
+        <Route exact path='/pantry' component={PantryContainer} />
 
         <Route exact path='/fish' component={ProductShow} />
         <Redirect to="/error" />
