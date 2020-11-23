@@ -9,6 +9,7 @@ Rails.application.routes.draw do
     resources :products_search, only: [:index]
     resources :carts, only: [:create, :destroy, :show]
     resources :cart_items, only: [:create, :destroy, :show]
+    resources :messages, only: [:create, :index, :show, :destroy]
   end
   root to: "static_pages#root"
 end

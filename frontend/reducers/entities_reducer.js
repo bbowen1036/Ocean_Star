@@ -6,6 +6,7 @@ import productsReducer from './products_reducer';
 import categoriesReducer from './categories_reducer';
 import searchReducer from './search_reducer';
 import cartReducer from './cart_reducer';
+import messageReducer from './messages_reducer';
 
 const entitiesReducer = combineReducers({
   users: usersReducer,
@@ -13,6 +14,7 @@ const entitiesReducer = combineReducers({
   categories: categoriesReducer,
   search: searchReducer,
   cart: cartReducer,
+  message: messageReducer
 });
 
 export default entitiesReducer;

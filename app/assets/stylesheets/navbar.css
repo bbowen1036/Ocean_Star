@@ -10,7 +10,7 @@
   position:sticky;
   top:0px;
   z-index:5;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.801);
   opacity: 1;
   font-family: Net-Lulo-Clean-W01-One-Bold;
   font-size:10px;
@@ -27,6 +27,7 @@
 .nav-categories li {
   margin: 0 14px;
   position: relative;
+  font-size: 13px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1.3px;
@@ -114,6 +115,17 @@ li.left:hover:before {
 .login-link {
   font-family:Montserrat, sans-serif;
   letter-spacing: 1.1px;
+  font-size: 13px;
+}
+
+.header-button {
+  border-radius: 30px;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 13px;
+  margin: .5em;
+  padding: .5em 2em;
 }
 
 .nav-logo {

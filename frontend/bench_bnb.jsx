@@ -9,6 +9,8 @@ import {login, logout, signup} from './actions/session_actions'
 import {fetchAllProducts, fetchProduct, findProduct} from './actions/product_actions';
 import { getCategory, getAllCategories } from './actions/categories_actions'
 import { addCartItem, deleteCartItem, fetchCart } from './actions/cart_actions';
+import {newMessage} from './actions/message_actions';
+import {createMessage} from './util/messages_api_util'
 //test END//
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -42,6 +44,8 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addCartItem = addCartItem;
   window.deleteCartItem = deleteCartItem;
   window.fetchCart = fetchCart;
+  window.newMessage = newMessage;
+  window.createMessage = createMessage
   //test END//
   
   

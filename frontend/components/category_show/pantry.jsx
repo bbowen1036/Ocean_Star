@@ -27,7 +27,7 @@ class PantryIndex extends React.Component {
             <img src="https://oceanstar-seed.s3-us-west-1.amazonaws.com/pantryitems.jpg"  className="meal-kit-img" alt=""/>
             <div className="category-header-text">
               <h1>Pantry</h1>
-              <p></p>
+              <p>All of our pantry items are carefuly sourced from the best artisans dedicated to their craft.</p>
             </div>
           </header>
           <td className='category-item-index'>

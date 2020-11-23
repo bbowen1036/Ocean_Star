@@ -23,6 +23,7 @@ import ProduceContainer from './category_show/produce';
 import MealKitContainer from './category_show/meal_kit';
 import BakeryContainer from './category_show/bakery';
 import PantryContainer from './category_show/pantry';
+import ModalContainer from './modal/modal_container'
 
 const App = () => {
   return (
@@ -47,6 +48,9 @@ const App = () => {
         <Route exact path='/fish' component={ProductShow} />
         <Redirect to="/error" />
       </Switch>
+
+      <ModalContainer/>
+      
       <footer>
         <Footer />
       </footer>

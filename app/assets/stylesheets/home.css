@@ -23,13 +23,14 @@
 }
 
 .main-title {
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   align-self: center;
   margin-top: 10vh;
   align-items: center;
   justify-content: center;
-  width: 445px;
+  width: 520px;
   z-index: 2;
 }
 
