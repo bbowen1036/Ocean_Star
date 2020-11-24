@@ -16,7 +16,7 @@ class MeatIndex extends React.Component {
   render () {
     const meatIds = this.props.meat[2].productId
     const products = this.props.products
-    debugger
+ 
     const meatItems = meatIds.map(id => 
       <ProductDisplay 
       key={`product-list-item${id}`}

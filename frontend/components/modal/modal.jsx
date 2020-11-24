@@ -33,7 +33,7 @@ class Modal extends React.Component {
 
   handleSubmit() {
     const msg = Object.assign({message: this.state.message}); 
-debugger
+
     this.props.sendMessage(msg);
     this.setState({
       message: ""

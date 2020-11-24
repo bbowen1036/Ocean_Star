@@ -13,7 +13,7 @@ class PantryIndex extends React.Component {
   render () {
     const pantryIds = this.props.pantry[6].productId
     const products = this.props.products
-    debugger
+
     const pantryItems = pantryIds.map(id => 
       <ProductDisplay 
       key={`product-list-item${id}`}

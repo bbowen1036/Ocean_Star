@@ -16,7 +16,7 @@ class ProduceIndex extends React.Component {
   render () {
     const produceIds = this.props.produce[3].productId
     const products = this.props.products
-    debugger
+
     const produceItems = produceIds.map(id => 
       <ProductDisplay 
       key={`product-list-item${id}`}

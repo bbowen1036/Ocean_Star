@@ -14,7 +14,7 @@ class SeafoodIndex extends React.Component {
   render () {
     const seafoodIds = this.props.seafood[1].productId
     const products = this.props.products
-    debugger
+
     const seafoodItems = seafoodIds.map(id => 
       <ProductDisplay 
         key={`product-list-item${id}`}

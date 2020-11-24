@@ -15,7 +15,7 @@ import Error from './error/error';
 import Footer from './footer/footer';
 import ProductShow from './products/product_show';
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
-import CartContainer from './cart/cart_container';
+// import CartContainer from './cart/cart_container';
 import SearchContainer from './search/search_container';
 import SeafoodContainer from './category_show/seafood_container';
 import MeatContainer from './category_show/meat';
@@ -37,7 +37,7 @@ const App = () => {
         <AuthRoute exact path="/login" component={LoginFormContainer} />
         <AuthRoute exact path="/signup" component={SessionFormContainer} />
         <Route exact path='/search' component={SearchContainer}/>
-        <Route exact path='/cart' component={CartContainer} />
+        {/* <Route exact path='/cart' component={CartContainer} /> */}
         <Route exact path='/seafood' component={SeafoodContainer} />
         <Route exact path='/meat' component={MeatContainer} />
         <Route exact path='/produce' component={ProduceContainer} />

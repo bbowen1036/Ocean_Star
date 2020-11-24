@@ -13,7 +13,7 @@ class BakeryIndex extends React.Component {
   render () {
     const bakeryIds = this.props.bakery[5].productId
     const products = this.props.products
-    debugger
+  
     const bakeryItems = bakeryIds.map(id => 
       <ProductDisplay 
       key={`product-list-item${id}`}

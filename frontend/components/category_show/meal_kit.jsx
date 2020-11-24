@@ -13,7 +13,7 @@ class MealKitIndex extends React.Component {
   render () {
     const mealKitIds = this.props.mealKit[4].productId
     const products = this.props.products
-    debugger
+ 
     const mealKitItems = mealKitIds.map(id => 
       <ProductDisplay 
       key={`product-list-item${id}`}

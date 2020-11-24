@@ -13,7 +13,7 @@ export const addItemToCart = (cartItem) => {
 };
 
 export const removeCartItem = (id) => {
-  debugger
+
   return (
     $.ajax({
       url: `/api/cart_items/${id}`,

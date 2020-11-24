@@ -21,33 +21,41 @@ class Cart extends React.Component {
     this.toggle = this.toggle.bind(this);
   }
 
-  componentDidMount() {
-    if (this.props.currentUser) {
-      let cartId = this.props.currentUser.cartId.id
-      let cart = this.props.currentUser.cart[cartId]
-      this.setState({ items: Object.entries(cart) })
-    } 
-  }
+  // componentDidMount() {
+  //   if (this.props.currentUser) {
+  //     let cartId = this.props.currentUser.cartId.id
+  //     let cart = this.props.currentUser.cart[cartId]
+  //     // this.setState({ items: Object.entries(cart) })
+  //   } 
+  // }
 
-  componentDidUpdate(prevProp, prevState) {
-    debugger
-    if (prevState.update != this.state.update) {
-      debugger
-      let cartId = this.props.currentUser.cartId.id
-      let cart = this.props.currentUser.cart[cartId]
-      this.setState({ items: Object.entries(cart) })
-      this.cartBody()
+  // componentDidUpdate(prevProp, prevState) {
+    
+  //   if (prevState.update != this.state.update) {
+      
+  //     let cartId = this.props.currentUser.cartId.id
+  //     let cart = this.props.currentUser.cart[cartId]
+  //     this.setState({ items: Object.entries(cart) })
+  //     this.cartBody()
      
  
-    }
-  }
+  //   }
+  // }
+
+  // componentDidUpdate() {
+  //   if (this.props.currentUser) {
+  //     let cartId = this.props.currentUser.cartId.id
+  //     let cart = this.props.currentUser.cart[cartId]
+  //     this.setState({ items: Object.entries(cart) })
+  //   } 
+  // }
 
   toggle () {
     this.setState({toggle: !this.state.toggle})
   }
  
   deleteItem(item) {
-    debugger
+    
     let id = item[1][1].pop();
     this.props.removeItem(id)
   
