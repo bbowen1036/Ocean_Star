@@ -1,0 +1,44 @@
+.search-container {
+  width: 50%;
+  margin: 3% auto 0 auto;
+  height: 70vh;
+  overflow: scroll;
+  padding: 20px 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.search-container h1 {
+  letter-spacing: 1.2px;
+  margin-bottom: 9px;
+}
+
+.search-container h5 {
+  letter-spacing: 1.2px;
+  font-weight: 300;
+}
+
+.search-product {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(131, 131, 131);
+  border-radius: 2px 2px;
+  padding: 4px 15px;
+  font-size: 15px;
+  font-weight: 100;
+  color: rgb(61, 61, 61);
+}
+
+.search-product > img {
+  border: 1px solid rgb(0, 47, 78);
+  height: 40px;
+  width: 40px;
+  border-radius: 50% ;
+  margin-right: 28px;
+  margin-left: 12px;
+}
+.search-list {
+  margin-top: 20px;
+}
+
