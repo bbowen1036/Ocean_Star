@@ -5,12 +5,12 @@ import configureStore from './store/store';
 import Root from './components/root';
 
 //test START//
-import {login, logout, signup} from './actions/session_actions'
-import {fetchAllProducts, fetchProduct, findProduct} from './actions/product_actions';
-import { getCategory, getAllCategories } from './actions/categories_actions'
-import { addCartItem, deleteCartItem, fetchCart } from './actions/cart_actions';
-import {newMessage} from './actions/message_actions';
-import {createMessage} from './util/messages_api_util'
+// import {login, logout, signup} from './actions/session_actions'
+// import {fetchAllProducts, fetchProduct, findProduct} from './actions/product_actions';
+// import { getCategory, getAllCategories } from './actions/categories_actions'
+// import { addCartItem, deleteCartItem, fetchCart } from './actions/cart_actions';
+// import {newMessage} from './actions/message_actions';
+// import {createMessage} from './util/messages_api_util'
 //test END//
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -31,21 +31,21 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   //test START//
-  window.login = login;
-  window.logout = logout;
-  window.signup = signup;
-  window.fetchAllProducts = fetchAllProducts;
-  window.fetchProduct = fetchProduct;
-  window.findProduct = findProduct;
-  window.getCategory = getCategory
-  window.getAllCategories = getAllCategories
-  window.getState = store.getState;
-  window.dispatch = store.dispatch;
-  window.addCartItem = addCartItem;
-  window.deleteCartItem = deleteCartItem;
-  window.fetchCart = fetchCart;
-  window.newMessage = newMessage;
-  window.createMessage = createMessage
+  // window.login = login;
+  // window.logout = logout;
+  // window.signup = signup;
+  // window.fetchAllProducts = fetchAllProducts;
+  // window.fetchProduct = fetchProduct;
+  // window.findProduct = findProduct;
+  // window.getCategory = getCategory
+  // window.getAllCategories = getAllCategories
+  // window.getState = store.getState;
+  // window.dispatch = store.dispatch;
+  // window.addCartItem = addCartItem;
+  // window.deleteCartItem = deleteCartItem;
+  // window.fetchCart = fetchCart;
+  // window.newMessage = newMessage;
+  // window.createMessage = createMessage
   //test END//
   
   
