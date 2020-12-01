@@ -13,13 +13,7 @@
   },
   "scripts": {
     "webpack": "webpack --watch --mode=development",
-    "postinstall": "webpack",
-    "dev": "react-scripts start",
-"start": "serve -s build",
-"build": "react-scripts build",
-"test": "react-scripts test --env=jsdom",
-"eject": "react-scripts eject",
-"heroku-postbuild": "npm run build"
+    "postinstall": "webpack"
   },
   "repository": {
     "type": "git",
