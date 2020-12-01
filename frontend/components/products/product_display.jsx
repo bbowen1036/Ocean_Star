@@ -2,10 +2,13 @@ import React from 'react';
 import { NavLink } from 'react-router-dom'
 
 const ProductDisplay = ({ product }) => {
-  
+  if (!product) {
+    return null
+  }
   const { name, price, photo_url, description } = product;
   
   return(
+
     <div className='product-display'>
       <NavLink to={{
         pathname: '/fish',

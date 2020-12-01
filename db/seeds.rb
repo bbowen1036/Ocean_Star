@@ -6,11 +6,14 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+ActiveRecord::Base.transaction do
+  
 
-User.delete_all
-Product.delete_all
-Category.delete_all
-Cart.delete_all
+
+  Category.delete_all
+  Product.delete_all
+  Cart.delete_all
+  User.delete_all
 
 ActiveRecord::Base.connection.tables.each do |t|
   ActiveRecord::Base.connection.reset_pk_sequence!(t)
@@ -397,4 +400,7 @@ file105 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-co
 file106 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-trufjuc.jpg')
   product106.photo.attach(io: file106, filename: 'img-trugjuc')
 
+
+
+end
   #      FIN       #
