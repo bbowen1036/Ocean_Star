@@ -33,9 +33,9 @@ class MeatIndex extends React.Component {
               <p>Highest grade Poultry and Meats sourced directly from our local ranches.</p>
             </div>
           </header>
-          <td className='category-item-index'>
+          <div className='category-item-index'>
             {meatItems}
-          </td>
+          </div>
         </div>
     )
   } 

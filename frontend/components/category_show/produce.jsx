@@ -33,9 +33,9 @@ class ProduceIndex extends React.Component {
               <p>All our produce is hand-sorted daily & bought-seasonally from small farmers- chosen for their commitment to high-quality, nutritious, & safe products. click our product photos to read about these family farms: their history & current practices.</p>
             </div>
           </header>
-          <td className='category-item-index'>
+          <div className='category-item-index'>
             {produceItems}
-          </td>
+          </div>
         </div>
     )
   } 

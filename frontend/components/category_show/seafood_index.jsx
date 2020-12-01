@@ -32,9 +32,9 @@ class SeafoodIndex extends React.Component {
         </div>
         </header>
 
-        <td className='category-item-index'>
+        <div className='category-item-index'>
           {seafoodItems}
-        </td>
+        </div>
 
 
       </div>

@@ -30,9 +30,9 @@ class PantryIndex extends React.Component {
               <p>All of our pantry items are carefuly sourced from the best artisans dedicated to their craft.</p>
             </div>
           </header>
-          <td className='category-item-index'>
+          <div className='category-item-index'>
             {pantryItems}
-          </td>
+          </div>
         </div>     
     )
   } 

@@ -33,9 +33,9 @@ class MealKitIndex extends React.Component {
               <p>All our Meal Kits are crafted by the top Restaurants and Purveyors. Always fresh, always seasonal, Always local.</p>
             </div>
           </header>
-          <td className='category-item-index'>
+          <div className='category-item-index'>
             {mealKitItems}
-          </td>
+          </div>
         </div>
       
     )
