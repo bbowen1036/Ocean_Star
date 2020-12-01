@@ -174,336 +174,336 @@ product106 = Product.new( name: 'Black Winter Truffle Juice (400ml)', price: 77,
 
 # Photo Seeds - Seafood
 
-# file1 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/LocalKingSalmon_600x.jpg")
-#   product1.photo.attach(io: file1, filename: "img_salmon.jpg")
-#   product1.save!
-# file2 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/yellowfin_tuna_steak.jpg")
-#   product2.photo.attach(io: file2, filename: 'img-tuna.jpg')
-#   product2.save!
-# file3 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/sardines.jpg")
-#   product3.photo.attach(io: file3, filename: 'img-sardines.jpg')
-#   product3.save!
-# file4 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/halibut_cheeks.jpg")
-#   product4.photo.attach(io: file4, filename: 'img-haliCheek.jpg')
-#   product4.save!
-# file5 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/black_cod.jpg")
-#   product5.photo.attach(io: file5, filename: 'img-blackCod.jpg')
-#   product5.save!
-# file6 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/yellowtail_amberjack.jpg")
-#   product6.photo.attach(io: file6, filename: 'img-amberkack')
-#   product6.save!
-# file7 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/whole_striped_bass.jpg")
-#   product7.photo.attach(io: file7, filename: 'img-wholebass')
-#   product7.save!
-# file8 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/SushiKitStuff_600x.jpg")
-#   product8.photo.attach(io: file8, filename: 'img-sushikit')
-#   product8.save!
-# file9 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/branzino.jpg")
-#   product9.photo.attach(io: file9, filename: 'img-branzino')
-#   product9.save!
-# file10 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/petrale_sole_filet.jpg")
-#   product10.photo.attach(io: file10, filename: 'img-petrale')
-#   product10.save!
-# file11 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/caviar.jpg")
-#   product11.photo.attach(io: file11, filename: 'img-caviar')
-#   product11.save!
-# file12 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/octopus.jpg")
-#   product12.photo.attach(io: file12, filename: 'img-octopus')
-#   product12.save!
-# file13 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/shrimp.jpg")
-#   product13.photo.attach(io: file13, filename: 'img-shrimp')
-#   product13.save!
-# file14 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/uni.jpg")
-#   product14.photo.attach(io: file14, filename: 'img-uni')
-#   product14.save!
-# file15 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/shigoku.jpg")
-#   product15.photo.attach(io: file15, filename: 'img-shigoku')
-#   product15.save!
-# file16 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/abalone.jpg")
-#   product16.photo.attach(io: file16, filename: 'img-abalone')
-#   product16.save!
-# file17 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/wasabi.jpg")
-#   product17.photo.attach(io: file17, filename: 'img-wasabi')
-#   product17.save!
-# file18 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/monkfish.jpg")
-#   product18.photo.attach(io: file18, filename: 'img-monfish')
-#   product18.save!
-# file19 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/kampachi.jpg")
-#   product19.photo.attach(io: file19, filename: 'img-kampachi')
-#   product19.save!
-# file20 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/jonahcrab.jpg")
-#   product20.photo.attach(io: file20, filename: 'img-jonahcrab')
-#   product20.save!
+file1 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/LocalKingSalmon_600x.jpg")
+  product1.photo.attach(io: file1, filename: "img_salmon.jpg")
+  product1.save!
+file2 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/yellowfin_tuna_steak.jpg")
+  product2.photo.attach(io: file2, filename: 'img-tuna.jpg')
+  product2.save!
+file3 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/sardines.jpg")
+  product3.photo.attach(io: file3, filename: 'img-sardines.jpg')
+  product3.save!
+file4 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/halibut_cheeks.jpg")
+  product4.photo.attach(io: file4, filename: 'img-haliCheek.jpg')
+  product4.save!
+file5 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/black_cod.jpg")
+  product5.photo.attach(io: file5, filename: 'img-blackCod.jpg')
+  product5.save!
+file6 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/yellowtail_amberjack.jpg")
+  product6.photo.attach(io: file6, filename: 'img-amberkack')
+  product6.save!
+file7 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/whole_striped_bass.jpg")
+  product7.photo.attach(io: file7, filename: 'img-wholebass')
+  product7.save!
+file8 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/SushiKitStuff_600x.jpg")
+  product8.photo.attach(io: file8, filename: 'img-sushikit')
+  product8.save!
+file9 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/branzino.jpg")
+  product9.photo.attach(io: file9, filename: 'img-branzino')
+  product9.save!
+file10 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/petrale_sole_filet.jpg")
+  product10.photo.attach(io: file10, filename: 'img-petrale')
+  product10.save!
+file11 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/caviar.jpg")
+  product11.photo.attach(io: file11, filename: 'img-caviar')
+  product11.save!
+file12 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/octopus.jpg")
+  product12.photo.attach(io: file12, filename: 'img-octopus')
+  product12.save!
+file13 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/shrimp.jpg")
+  product13.photo.attach(io: file13, filename: 'img-shrimp')
+  product13.save!
+file14 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/uni.jpg")
+  product14.photo.attach(io: file14, filename: 'img-uni')
+  product14.save!
+file15 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/shigoku.jpg")
+  product15.photo.attach(io: file15, filename: 'img-shigoku')
+  product15.save!
+file16 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/abalone.jpg")
+  product16.photo.attach(io: file16, filename: 'img-abalone')
+  product16.save!
+file17 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/wasabi.jpg")
+  product17.photo.attach(io: file17, filename: 'img-wasabi')
+  product17.save!
+file18 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/monkfish.jpg")
+  product18.photo.attach(io: file18, filename: 'img-monfish')
+  product18.save!
+file19 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/kampachi.jpg")
+  product19.photo.attach(io: file19, filename: 'img-kampachi')
+  product19.save!
+file20 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/jonahcrab.jpg")
+  product20.photo.attach(io: file20, filename: 'img-jonahcrab')
+  product20.save!
 
-# # Photo Seeds - Meat
+# Photo Seeds - Meat
 
-# file21 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/Eggs_600x.jpg")
-#   product21.photo.attach(io: file21, filename: 'img-egg')
-#   product21.save!
-# file22 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/biagio_whole_chx.jpg")
-#   product22.photo.attach(io: file22, filename: 'img-wholChx')
-#   product22.save!
-# file23 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/biagioHen.jpg")
-#   product23.photo.attach(io: file23, filename: 'img-hen')
-#   product23.save!
-# file25 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/bbqBreast.jpg')
-#   product25.photo.attach(io: file25, filename: 'img-bbq')
-#   product25.save!
-# file26 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/wolfRanchQual.jpg')
-#   product26.photo.attach(io: file26, filename: 'img-ql')
-#   product26.save!
-# file27 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/wolfQuilBoneless.jpg')
-#   product27.photo.attach(io: file27, filename: 'img-qlBnls')
-#   product27.save!
-# file28 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/bgioDuckLegs.jpg')
-#   product28.photo.attach(io: file28, filename: 'img-dkleg')
-#   product28.save!
-# file29 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/bgiDukBreas.jpg')
-#   product29.photo.attach(io: file29, filename: 'img-dkbreast')
-#   product29.save!
-# file30 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/grassfedSteak.jpg')
-#   product30.photo.attach(io: file30, filename: 'img-sk')
-#   product30.save!
-# file31 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/gBeefRichards.jpg')
-#   product31.photo.attach(io: file31, filename: 'img-rGB')
-#   product31.save!
-# file32 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/ribeteCream.jpg')
-#   product32.photo.attach(io: file32, filename: 'img-crm')
-#   product32.save!
-# file33 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/filletDartan.jpg')
-#   product33.photo.attach(io: file33, filename: 'img-filetArg')
-#   product33.save!
-# file34 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/flanneryribet.jpg')
-#   product34.photo.attach(io: file34, filename: 'img-flanRib')
-#   product34.save!
-# file35 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/flanneryTloin.jpg')
-#   product35.photo.attach(io: file35, filename: 'flanTl')
-#   product35.save!
-# file36 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/flanneryGBeef.jpg')
-#   product36.photo.attach(io: file36, filename: 'flanGB')
-#   product36.save!
-# file37 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/flanneryNY.jpg')
-#   product37.photo.attach(io: file37, filename: 'flanNY')
-#   product37.save!
-# file38 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/marro.jpg')
-#   product38.photo.attach(io: file38, filename: 'marow')
-#   product38.save!
-
-
-# # Photo Seeds - Produce
-
-# file39 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-riverTomato.jpg')
-#   product39.photo.attach(io: file39, filename: 'img-rivTom')
-#   product39.save!
-# file40 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-riverTom2.jpg')
-#   product40.photo.attach(io: file40, filename: 'img-rivTom2')
-#   product40.save!
-# file41 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-tomBasket.jpg')
-#   product41.photo.attach(io: file41, filename: 'img-rivBas')
-#   product41.save!
-# file42 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-Arugula.jpg')
-#   product42.photo.attach(io: file42, filename: 'img-arug')
-#   product42.save!
-# file43 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-Gems.jpg')
-#   product43.photo.attach(io: file43, filename: 'img-gem')
-#   product43.save!
-
-# file45 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-redGem.jpg')
-#   product45.photo.attach(io: file45, filename: 'img-redgem')
-#   product45.save!
-# file46 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-SpagSq.jpg')
-#   product46.photo.attach(io: file46, filename: 'img-spagSq')
-#   product46.save!
-# file47 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-bNut.jpg')
-#   product47.photo.attach(io: file47, filename: 'img-sqBnut')
-#   product47.save!
-# file48 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-sugarSq.jpg')
-#   product48.photo.attach(io: file48, filename: 'img-sqSug')
-#   product48.save!
-# file49 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-box.jpg')
-#   product49.photo.attach(io: file49, filename: 'img-box')
-#   product49.save!
-# file50 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-parsnip.jpg')
-#   product50.photo.attach(io: file50, filename: 'img-parsnip')
-#   product50.save!
-# file51 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-brussels.jpg')
-#   product51.photo.attach(io: file51, filename: 'img-brus')
-#   product51.save!
-# file52 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-chanty.jpg')
-#   product52.photo.attach(io: file52, filename: 'img-canty')
-#   product52.save!
-# file53 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-truffle.jpg')
-#   product53.photo.attach(io: file53, filename: 'img-truf')
-#   product53.save!
-# file54 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-btrump.jpg')
-#   product54.photo.attach(io: file54, filename: 'img-btrum')
-#   product54.save!
-# file55 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-seweedred.jpg')
-#   product55.photo.attach(io: file55, filename: 'img-swdred')
-#   product55.save!
-# file56 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-sweed.jpg')
-#   product56.photo.attach(io: file56, filename: 'img-swd')
-#   product56.save!
+file21 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/Eggs_600x.jpg")
+  product21.photo.attach(io: file21, filename: 'img-egg')
+  product21.save!
+file22 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/biagio_whole_chx.jpg")
+  product22.photo.attach(io: file22, filename: 'img-wholChx')
+  product22.save!
+file23 = open("https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/biagioHen.jpg")
+  product23.photo.attach(io: file23, filename: 'img-hen')
+  product23.save!
+file25 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/bbqBreast.jpg')
+  product25.photo.attach(io: file25, filename: 'img-bbq')
+  product25.save!
+file26 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/wolfRanchQual.jpg')
+  product26.photo.attach(io: file26, filename: 'img-ql')
+  product26.save!
+file27 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/wolfQuilBoneless.jpg')
+  product27.photo.attach(io: file27, filename: 'img-qlBnls')
+  product27.save!
+file28 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/bgioDuckLegs.jpg')
+  product28.photo.attach(io: file28, filename: 'img-dkleg')
+  product28.save!
+file29 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/bgiDukBreas.jpg')
+  product29.photo.attach(io: file29, filename: 'img-dkbreast')
+  product29.save!
+file30 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/grassfedSteak.jpg')
+  product30.photo.attach(io: file30, filename: 'img-sk')
+  product30.save!
+file31 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/gBeefRichards.jpg')
+  product31.photo.attach(io: file31, filename: 'img-rGB')
+  product31.save!
+file32 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/ribeteCream.jpg')
+  product32.photo.attach(io: file32, filename: 'img-crm')
+  product32.save!
+file33 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/filletDartan.jpg')
+  product33.photo.attach(io: file33, filename: 'img-filetArg')
+  product33.save!
+file34 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/flanneryribet.jpg')
+  product34.photo.attach(io: file34, filename: 'img-flanRib')
+  product34.save!
+file35 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/flanneryTloin.jpg')
+  product35.photo.attach(io: file35, filename: 'flanTl')
+  product35.save!
+file36 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/flanneryGBeef.jpg')
+  product36.photo.attach(io: file36, filename: 'flanGB')
+  product36.save!
+file37 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/flanneryNY.jpg')
+  product37.photo.attach(io: file37, filename: 'flanNY')
+  product37.save!
+file38 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/marro.jpg')
+  product38.photo.attach(io: file38, filename: 'marow')
+  product38.save!
 
 
-#   # Photo Seeds - MealKit
+# Photo Seeds - Produce
 
-# file57 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/cochonkit.jpg')
-#   product57.photo.attach(io: file57, filename: 'img-cohkit')
-#   product57.save!
-# file58 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/sahimikit.jpg')
-#   product58.photo.attach(io: file58, filename: 'img-sushkit')
-#   product58.save!
-# file59 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/ruben.jpg')
-#   product59.photo.attach(io: file59, filename: 'img-rub')
-#   product59.save!
-# file60 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/pizzamarg.jpg')
-#   product60.photo.attach(io: file60, filename: 'img-0')
-#   product60.save!
-# file61 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/pokeKit.jpg')
-#   product61.photo.attach(io: file61, filename: 'img-pokekit')
-#   product61.save!
-# file62 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-burger.jpg')
-#   product62.photo.attach(io: file62, filename: 'img-burgkit')
-#   product62.save!
-# file63 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-spicetrb.jpg')
-#   product63.photo.attach(io: file63, filename: 'img-spickt')
-#   product63.save!
-# file64 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-decad.jpg')
-#   product64.photo.attach(io: file64, filename: 'img-dec')
-#   product64.save!
-# file65 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/Minus8VinegarBox_600x.jpg')
-#   product65.photo.attach(io: file65, filename: 'img-vin')
-#   product65.save!
-# file66 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-matt.png')
-#   product66.photo.attach(io: file66, filename: 'img-mat')
-#   product66.save!
-# file67 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-cochBrisk.jpg')
-#   product67.photo.attach(io: file67, filename: 'img-chocbris')
-#   product67.save!
-# file68 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-cochRib.jpg')
-#   product68.photo.attach(io: file68, filename: 'img-ribcoch')
-#   product68.save!
-# file69 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-bbqpork.jpg')
-#   product69.photo.attach(io: file69, filename: 'img-shoul')
-#   product69.save!
-# file70 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-carolinaBBq.jpg')
-#   product70.photo.attach(io: file70, filename: 'img-carbbq')
-#   product70.save!
-# file71 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-sonomaBbq.jpg')
-#   product71.photo.attach(io: file71, filename: 'img-sonbbq')
-#   product71.save!
-# file72 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-wtf.jpg')
-#   product72.photo.attach(io: file72, filename: 'img-wtf')
-#   product72.save!
-# file73 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-shorty.jpg')
-#   product73.photo.attach(io: file73, filename: 'img-cohrib')
-#   product73.save!
+file39 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-riverTomato.jpg')
+  product39.photo.attach(io: file39, filename: 'img-rivTom')
+  product39.save!
+file40 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-riverTom2.jpg')
+  product40.photo.attach(io: file40, filename: 'img-rivTom2')
+  product40.save!
+file41 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-tomBasket.jpg')
+  product41.photo.attach(io: file41, filename: 'img-rivBas')
+  product41.save!
+file42 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-Arugula.jpg')
+  product42.photo.attach(io: file42, filename: 'img-arug')
+  product42.save!
+file43 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-Gems.jpg')
+  product43.photo.attach(io: file43, filename: 'img-gem')
+  product43.save!
 
-
-#  # Photo Seeds - Bakery
-
-# file75 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-pumkpPi.jpg')
-#   product75.photo.attach(io: file75, filename: 'img-pumpk')
-#   product75.save!
-# file76 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-challabun.jpg')
-#   product76.photo.attach(io: file76, filename: 'img-chabun')
-#   product76.save!
-# file77 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-bagelEthin.jpg')
-#   product77.photo.attach(io: file77, filename: 'img-bageth')
-#   product77.save!
-# file78 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-vggi.jpg')
-#   product78.photo.attach(io: file78, filename: 'img-vegpie')
-#   product78.save!
-# file79 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-raspPie.png')
-#   product79.photo.attach(io: file79, filename: 'img-rasp')
-#   product79.save!
-# file80 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-pieSF.jpg')
-#   product80.photo.attach(io: file80, filename: 'img-sf')
-#   product80.save!
-# file81 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-piePec.jpg')
-#   product81.photo.attach(io: file81, filename: 'img-pec')
-#   product81.save!
-# file82 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-pieAp.jpg')
-#   product82.photo.attach(io: file82, filename: 'img-appi')
-#   product82.save!
-# file83 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-piechery.jpg')
-#   product83.photo.attach(io: file83, filename: 'img-chepie')
-#   product83.save!
-# file84 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-haz.jpg')
-#   product84.photo.attach(io: file84, filename: 'img-hax')
-#   product84.save!
-# file85 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-grit.jpg') 
-#   product85.photo.attach(io: file85, filename: 'img-grit')
-#   product85.save!
-# file86 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-bred.jpg')
-#   product86.photo.attach(io: file86, filename: 'img-br')
-#   product86.save!
-# file87 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-pizaFlo.webp')
-#   product87.photo.attach(io: file87, filename: 'img-pizfl')
-#   product87.save!
-# file88 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-pastyFl.jpg')
-#   product88.photo.attach(io: file88, filename: 'img-manit')
-#   product88.save!
-# file89 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-pastaFl.jpg')
-#   product89.photo.attach(io: file89, filename: 'img-pizflow')
-#   product89.save!
+file45 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-redGem.jpg')
+  product45.photo.attach(io: file45, filename: 'img-redgem')
+  product45.save!
+file46 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-SpagSq.jpg')
+  product46.photo.attach(io: file46, filename: 'img-spagSq')
+  product46.save!
+file47 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-bNut.jpg')
+  product47.photo.attach(io: file47, filename: 'img-sqBnut')
+  product47.save!
+file48 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-sugarSq.jpg')
+  product48.photo.attach(io: file48, filename: 'img-sqSug')
+  product48.save!
+file49 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-box.jpg')
+  product49.photo.attach(io: file49, filename: 'img-box')
+  product49.save!
+file50 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-parsnip.jpg')
+  product50.photo.attach(io: file50, filename: 'img-parsnip')
+  product50.save!
+file51 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-brussels.jpg')
+  product51.photo.attach(io: file51, filename: 'img-brus')
+  product51.save!
+file52 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-chanty.jpg')
+  product52.photo.attach(io: file52, filename: 'img-canty')
+  product52.save!
+file53 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-truffle.jpg')
+  product53.photo.attach(io: file53, filename: 'img-truf')
+  product53.save!
+file54 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-btrump.jpg')
+  product54.photo.attach(io: file54, filename: 'img-btrum')
+  product54.save!
+file55 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-seweedred.jpg')
+  product55.photo.attach(io: file55, filename: 'img-swdred')
+  product55.save!
+file56 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/newSeedPhoto/p-sweed.jpg')
+  product56.photo.attach(io: file56, filename: 'img-swd')
+  product56.save!
 
 
+  # Photo Seeds - MealKit
 
-#  # Photo Seeds - Bakery
+file57 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/cochonkit.jpg')
+  product57.photo.attach(io: file57, filename: 'img-cohkit')
+  product57.save!
+file58 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/sahimikit.jpg')
+  product58.photo.attach(io: file58, filename: 'img-sushkit')
+  product58.save!
+file59 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/ruben.jpg')
+  product59.photo.attach(io: file59, filename: 'img-rub')
+  product59.save!
+file60 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/pizzamarg.jpg')
+  product60.photo.attach(io: file60, filename: 'img-0')
+  product60.save!
+file61 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/pokeKit.jpg')
+  product61.photo.attach(io: file61, filename: 'img-pokekit')
+  product61.save!
+file62 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-burger.jpg')
+  product62.photo.attach(io: file62, filename: 'img-burgkit')
+  product62.save!
+file63 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-spicetrb.jpg')
+  product63.photo.attach(io: file63, filename: 'img-spickt')
+  product63.save!
+file64 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-decad.jpg')
+  product64.photo.attach(io: file64, filename: 'img-dec')
+  product64.save!
+file65 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/Minus8VinegarBox_600x.jpg')
+  product65.photo.attach(io: file65, filename: 'img-vin')
+  product65.save!
+file66 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-matt.png')
+  product66.photo.attach(io: file66, filename: 'img-mat')
+  product66.save!
+file67 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-cochBrisk.jpg')
+  product67.photo.attach(io: file67, filename: 'img-chocbris')
+  product67.save!
+file68 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-cochRib.jpg')
+  product68.photo.attach(io: file68, filename: 'img-ribcoch')
+  product68.save!
+file69 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-bbqpork.jpg')
+  product69.photo.attach(io: file69, filename: 'img-shoul')
+  product69.save!
+file70 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-carolinaBBq.jpg')
+  product70.photo.attach(io: file70, filename: 'img-carbbq')
+  product70.save!
+file71 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-sonomaBbq.jpg')
+  product71.photo.attach(io: file71, filename: 'img-sonbbq')
+  product71.save!
+file72 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-wtf.jpg')
+  product72.photo.attach(io: file72, filename: 'img-wtf')
+  product72.save!
+file73 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/mk-shorty.jpg')
+  product73.photo.attach(io: file73, filename: 'img-cohrib')
+  product73.save!
 
-# file90 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-vanila.jpg')
-#   product90.photo.attach(io: file90, filename: 'img-van')
-#   product90.save!
-# file91 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-longpep.png')
-#   product91.photo.attach(io: file91, filename: 'img-longpp')
-#   product91.save!
-# file92 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-omani.jpg')
-#   product92.photo.attach(io: file92, filename: 'img-om')
-#   product92.save!
-# file93 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-pinkpep.jpg')
-#   product93.photo.attach(io: file93, filename: 'img-pink')
-#   product93.save!
-# file94 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-omaniWt.jpg')
-#   product94.photo.attach(io: file94, filename: 'img-omWht')
-#   product94.save!
-# file95 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-pickGin.jpg')
-#   product95.photo.attach(io: file95, filename: 'img-gin')
-#   product95.save!
-# file96 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-kosho.jpg')
-#   product96.photo.attach(io: file96, filename: 'img-yuzu')
-#   product96.save!
-# file97 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-shoyu.jpg')
-#   product97.photo.attach(io: file97, filename: 'img-shoyu')
-#   product97.save!
-# file98 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-bgarl.jpg')
-#   product98.photo.attach(io: file98, filename: 'img-bgar')
-#   product98.save!
-# file99 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-bsesam.jpg')
-#   product99.photo.attach(io: file99, filename: 'img-bses')
-#   product99.save!
-# file100 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-oliveMesk.jpg')
-#   product100.photo.attach(io: file100, filename: 'img-oliv')
-#   product100.save!
-# file101 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-mostarda.jpg')
-#   product101.photo.attach(io: file101, filename: 'img-mos')
-#   product101.save!
-# file102 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-quinMostar.jpg')
-#   product102.photo.attach(io: file102, filename: 'img-qnmos')
-#   product102.save!
-# file103 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-aquel.jpg')
-#   product103.photo.attach(io: file103, filename: 'img-aq')
-#   product103.save!
-# file104 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-sushiric.jpg')
-#   product104.photo.attach(io: file104, filename: 'img-sisric')
-#   product104.save!
-# file105 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-cous.jpg')
-#   product105.photo.attach(io: file105, filename: 'img-cous')
-#   product105.save!
-# file106 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-trufjuc.jpg')
-#   product106.photo.attach(io: file106, filename: 'img-trugjuc')
-#   product106.save!
+
+ # Photo Seeds - Bakery
+
+file75 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-pumkpPi.jpg')
+  product75.photo.attach(io: file75, filename: 'img-pumpk')
+  product75.save!
+file76 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-challabun.jpg')
+  product76.photo.attach(io: file76, filename: 'img-chabun')
+  product76.save!
+file77 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-bagelEthin.jpg')
+  product77.photo.attach(io: file77, filename: 'img-bageth')
+  product77.save!
+file78 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-vggi.jpg')
+  product78.photo.attach(io: file78, filename: 'img-vegpie')
+  product78.save!
+file79 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-raspPie.png')
+  product79.photo.attach(io: file79, filename: 'img-rasp')
+  product79.save!
+file80 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-pieSF.jpg')
+  product80.photo.attach(io: file80, filename: 'img-sf')
+  product80.save!
+file81 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-piePec.jpg')
+  product81.photo.attach(io: file81, filename: 'img-pec')
+  product81.save!
+file82 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-pieAp.jpg')
+  product82.photo.attach(io: file82, filename: 'img-appi')
+  product82.save!
+file83 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-piechery.jpg')
+  product83.photo.attach(io: file83, filename: 'img-chepie')
+  product83.save!
+file84 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-haz.jpg')
+  product84.photo.attach(io: file84, filename: 'img-hax')
+  product84.save!
+file85 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-grit.jpg') 
+  product85.photo.attach(io: file85, filename: 'img-grit')
+  product85.save!
+file86 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-bred.jpg')
+  product86.photo.attach(io: file86, filename: 'img-br')
+  product86.save!
+file87 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-pizaFlo.webp')
+  product87.photo.attach(io: file87, filename: 'img-pizfl')
+  product87.save!
+file88 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-pastyFl.jpg')
+  product88.photo.attach(io: file88, filename: 'img-manit')
+  product88.save!
+file89 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-pastaFl.jpg')
+  product89.photo.attach(io: file89, filename: 'img-pizflow')
+  product89.save!
+
+
+
+ # Photo Seeds - Bakery
+
+file90 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-vanila.jpg')
+  product90.photo.attach(io: file90, filename: 'img-van')
+  product90.save!
+file91 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-longpep.png')
+  product91.photo.attach(io: file91, filename: 'img-longpp')
+  product91.save!
+file92 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-omani.jpg')
+  product92.photo.attach(io: file92, filename: 'img-om')
+  product92.save!
+file93 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-pinkpep.jpg')
+  product93.photo.attach(io: file93, filename: 'img-pink')
+  product93.save!
+file94 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-omaniWt.jpg')
+  product94.photo.attach(io: file94, filename: 'img-omWht')
+  product94.save!
+file95 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-pickGin.jpg')
+  product95.photo.attach(io: file95, filename: 'img-gin')
+  product95.save!
+file96 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-kosho.jpg')
+  product96.photo.attach(io: file96, filename: 'img-yuzu')
+  product96.save!
+file97 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-shoyu.jpg')
+  product97.photo.attach(io: file97, filename: 'img-shoyu')
+  product97.save!
+file98 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/b-bgarl.jpg')
+  product98.photo.attach(io: file98, filename: 'img-bgar')
+  product98.save!
+file99 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-bsesam.jpg')
+  product99.photo.attach(io: file99, filename: 'img-bses')
+  product99.save!
+file100 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-oliveMesk.jpg')
+  product100.photo.attach(io: file100, filename: 'img-oliv')
+  product100.save!
+file101 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-mostarda.jpg')
+  product101.photo.attach(io: file101, filename: 'img-mos')
+  product101.save!
+file102 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-quinMostar.jpg')
+  product102.photo.attach(io: file102, filename: 'img-qnmos')
+  product102.save!
+file103 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-aquel.jpg')
+  product103.photo.attach(io: file103, filename: 'img-aq')
+  product103.save!
+file104 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-sushiric.jpg')
+  product104.photo.attach(io: file104, filename: 'img-sisric')
+  product104.save!
+file105 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-cous.jpg')
+  product105.photo.attach(io: file105, filename: 'img-cous')
+  product105.save!
+file106 = open('https://oceanstar-seed.s3-us-west-1.amazonaws.com/seedphoto/p-trufjuc.jpg')
+  product106.photo.attach(io: file106, filename: 'img-trugjuc')
+  product106.save!
 
 
 
